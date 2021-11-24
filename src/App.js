@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navBar'
+import {ItemListContainer} from "./components/itemsCatalogo"
+
 
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
        <NavBar />
       <header className="App-header">
       
+      <ItemListContainer greeting="Mi ItemListContainer"/>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Bienvenidos a  <code>Mi Tienda en React Js</code>, en construcción.

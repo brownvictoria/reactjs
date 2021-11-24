@@ -1,9 +1,9 @@
-import CartWidget from './components/cartWidget'
+import CartWidget from './cartWidget'
 
 
 const NavBar = () => {
     return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
   <div class="container-fluid">
 
     <a class="navbar-brand" href="#"> TEC </a>

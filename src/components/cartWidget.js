@@ -1,13 +1,15 @@
-import 'materialize-css/dist/css/materialize.min.css';
+import './cartWidget.css';
+import './materialize/css/materialize.css';
 
-export const CartWidget = () => 
+ const CartWidget = () => 
 {
     return(
         <div className="cart">
     <p className="material-icons cartIcon"> 
-        shopping_cart
+        shopping_cart 
     </p>
-    <p>4</p>
     </div>
     )
 }
+
+export default CartWidget
