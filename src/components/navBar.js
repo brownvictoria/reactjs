@@ -1,3 +1,6 @@
+import CartWidget from './components/cartWidget'
+
+
 const NavBar = () => {
     return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,8 +26,9 @@ const NavBar = () => {
         </li>
       </ul>
     <form class="d-flex">
-      <button class="btn btn-outline-success" type="submit">Registrarse</button>
+    <a href="#menu"><CartWidget /></a>
     </form>
+
     </div>
   </div>
 </nav>

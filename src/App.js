@@ -2,12 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navBar'
 
+
 function App() {
   return (
     <div className="App">
        <NavBar />
       <header className="App-header">
-       
+      
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Bienvenidos a  <code>Mi Tienda en React Js</code>, en construcción.
